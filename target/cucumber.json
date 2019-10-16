@@ -1,0 +1,379 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-15T17:56:07.988Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8904350600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 173400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4082946100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 275400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeStepExecution(Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 177600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterStepExecution(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 730186800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 140500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeStepExecution(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "LoginStep.iEnterTheFollowingForLogin(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 97800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterStepExecution(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 395918100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 45000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeStepExecution(Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStep.iClickLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 100100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterStepExecution(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184115800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 42500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeStepExecution(Scenario)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 162000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterStepExecution(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-15T17:56:22.296Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2668685400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with correct username and password to fail",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password-to-fail",
+        "after": [
+          {
+            "result": {
+              "duration": 41900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1884130600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 111500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeStepExecution(Scenario)"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 164100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterStepExecution(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237918100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 90300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeStepExecution(Scenario)"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "LoginStep.iEnterTheFollowingForLogin(DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 93900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterStepExecution(Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 878772300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 42800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeStepExecution(Scenario)"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStep.iClickLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 90100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterStepExecution(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 43700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.BeforeStepExecution(Scenario)"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I should see the userform page wrongly",
+            "match": {
+              "location": "LoginStep.iShouldSeeTheUserformPageWrongly()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 55400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hook.AfterStepExecution(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "  This feature deals with the login functionality of the application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
